@@ -1,6 +1,6 @@
 # 🦵 AI-Powered Knee Osteoarthritis Detection & Severity Classification System
 
-This full-stack intelligent healthcare application detects and classifies **Knee Osteoarthritis severity** from X-ray PDFs using Machine Learning — and helps patients take action instantly.
+This full-stack intelligent healthcare application detects and classifies **Knee Osteoarthritis Severity Classification** from X-ray PDFs using Machine Learning — and helps patients take action instantly.
 
 Instead of stopping at prediction, this system bridges  
 **AI diagnosis → medical guidance → doctor consultation → appointment booking**  
@@ -34,7 +34,3 @@ This project demonstrates how AI can move beyond prediction models and become a 
 
 🎯 Built with the goal of **making medical AI usable, actionable, and patient-centric**.
 
-
-
-
-i need all these in black font color
