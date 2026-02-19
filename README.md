@@ -1,175 +1,40 @@
-absl-py==2.1.0
-altair==5.5.0
-annotated-types==0.7.0
-anyio==4.8.0
-astunparse==1.6.3
-attrs==25.1.0
-blinker==1.9.0
-blis==1.2.0
-CacheControl==0.14.2
-cachetools==5.5.2
-catalogue==2.0.10
-certifi==2025.1.31
-cffi==1.17.1
-chardet==5.2.0
-charset-normalizer==3.4.1
-click==8.1.8
-cloudpathlib==0.21.0
-colorama==0.4.6
-confection==0.1.5
-contourpy==1.3.1
-cryptography==44.0.2
-cycler==0.12.1
-cymem==2.0.11
-distro==1.9.0
-filelock==3.17.0
-firebase-admin==6.6.0
-Flask==3.1.0
-flatbuffers==25.2.10
-fonttools==4.56.0
-fpdf==1.7.2
-fsspec==2025.3.0
-fuzzywuzzy==0.18.0
-gast==0.6.0
-gitdb==4.0.12
-GitPython==3.1.44
-google-api-core==2.24.1
-google-api-python-client==2.163.0
-google-auth==2.38.0
-google-auth-httplib2==0.2.0
-google-cloud-core==2.4.2
-google-cloud-dialogflow==2.41.0
-google-cloud-firestore==2.20.1
-google-cloud-storage==3.1.0
-google-crc32c==1.6.0
-google-pasta==0.2.0
-google-resumable-media==2.7.2
-googleapis-common-protos==1.69.1
-greenlet==3.1.1
-grpcio==1.70.0
-grpcio-status==1.70.0
-h11==0.14.0
-h5py==3.13.0
-httpcore==1.0.7
-httplib2==0.22.0
-httpx==0.28.1
-huggingface-hub==0.29.3
-idna==3.10
-imageio==2.37.0
-itsdangerous==2.2.0
-Jinja2==3.1.6
-jiter==0.9.0
-joblib==1.4.2
-jsonpatch==1.33
-jsonpointer==3.0.0
-jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
-keras==3.9.0
-kiwisolver==1.4.8
-langchain==0.3.20
-langchain-core==0.3.44
-langchain-text-splitters==0.3.6
-langcodes==3.5.0
-langsmith==0.3.13
-language_data==1.3.0
-lazy_loader==0.4
-libclang==18.1.1
-lime==0.2.0.1
-marisa-trie==1.2.1
-Markdown==3.7
-markdown-it-py==3.0.0
-MarkupSafe==3.0.2
-matplotlib==3.10.1
-mdurl==0.1.2
-ml-dtypes==0.4.1
-mpmath==1.3.0
-msgpack==1.1.0
-murmurhash==1.0.12
-mysql-connector-python==9.2.0
-namex==0.0.8
-narwhals==1.29.1
-networkx==3.4.2
-nltk==3.9.1
-numpy==2.0.2
-openai==1.66.3
-opencv-python==4.11.0.86
-opt_einsum==3.4.0
-optree==0.14.1
-orjson==3.10.15
-packaging==24.2
-pandas==2.2.3
-pillow==11.1.0
-pinecone==6.0.2
-pinecone-client==6.0.0
-pinecone-plugin-interface==0.0.7
-preshed==3.0.9
-proto-plus==1.26.0
-protobuf==5.29.3
-pyarrow==19.0.1
-pyasn1==0.6.1
-pyasn1_modules==0.4.1
-pycparser==2.22
-pydantic==2.10.6
-pydantic_core==2.27.2
-pydeck==0.9.1
-Pygments==2.19.1
-PyJWT==2.10.1
-pyparsing==3.2.1
-python-dateutil==2.9.0.post0
-pytz==2025.1
-PyYAML==6.0.2
-referencing==0.36.2
-regex==2024.11.6
-reportlab==4.3.1
-requests==2.32.3
-requests-toolbelt==1.0.0
-rich==13.9.4
-rpds-py==0.23.1
-rsa==4.9
-safetensors==0.5.3
-scikit-image==0.25.2
-scikit-learn==1.6.1
-scipy==1.15.2
-seaborn==0.13.2
-sentence-transformers==3.4.1
-shellingham==1.5.4
-six==1.17.0
-smart-open==7.1.0
-smmap==5.0.2
-sniffio==1.3.1
-spacy==3.8.4
-spacy-legacy==3.0.12
-spacy-loggers==1.0.5
-SQLAlchemy==2.0.39
-srsly==2.5.1
-streamlit==1.43.2
-streamlit-chat==0.1.1
-streamlit-option-menu==0.4.0
-sympy==1.13.1
-tenacity==9.0.0
-tensorboard==2.18.0
-tensorboard-data-server==0.7.2
-tensorflow==2.18.0
-tensorflow-io-gcs-filesystem==0.31.0
-tensorflow_intel==2.18.0
-termcolor==2.5.0
-thinc==8.3.4
-threadpoolctl==3.5.0
-tifffile==2025.2.18
-tokenizers==0.21.0
-toml==0.10.2
-torch==2.6.0
-tornado==6.4.2
-tqdm==4.67.1
-transformers==4.49.0
-typer==0.15.2
-typing_extensions==4.12.2
-tzdata==2025.1
-uritemplate==4.1.1
-urllib3==2.3.0
-wasabi==1.1.3
-watchdog==6.0.0
-weasel==0.4.1
-Werkzeug==3.1.3
-wrapt==1.17.2
-zstandard==0.23.0
+# 🦵 AI-Powered Knee Osteoarthritis Detection & Severity Classification System
+
+This full-stack intelligent healthcare application detects and classifies **Knee Osteoarthritis severity** from X-ray PDFs using Machine Learning — and helps patients take action instantly.
+
+Instead of stopping at prediction, this system bridges  
+**AI diagnosis → medical guidance → doctor consultation → appointment booking**  
+in one seamless workflow.
+
+---
+
+## 🔬 Features
+- 📄 Accepts uploaded X-ray PDF reports  
+- 🧠 Classifies condition into **5 clinical severity stages**  
+- 💊 Generates stage-specific treatment guidance  
+- 👨‍⚕️ Recommends doctors through Practo integration  
+- 📅 Enables direct appointment booking  
+- 🧾 Provides downloadable consultation receipt PDF  
+- 🤖 Includes an AI chatbot for awareness, FAQs, and patient support  
+
+---
+
+**⚙️ Tech Stack**
+- 🐍 Python  
+- 🧠 Machine Learning  
+- 🌐 Streamlit  
+- 🗄️ MySQL  
+- 🔗 REST API Integration  
+- 💻 PyCharm (Development Environment)
+
+---
+
+**💡 Impact**
+This project demonstrates how AI can move beyond prediction models and become a **practical healthcare assistant** — supporting early detection, informed decisions, and faster access to specialists.
+
+🎯 Built with the goal of **making medical AI usable, actionable, and patient-centric**.
+
+
+
+
+i need all these in black font color
